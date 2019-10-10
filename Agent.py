@@ -106,7 +106,8 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     lr = pow(10., float(args.lr))
-    beta = pow(10., float(args.beta))
+    # beta = pow(10., float(args.beta))
+    beta = None
     mode = args.mode
 
     rmses = []
